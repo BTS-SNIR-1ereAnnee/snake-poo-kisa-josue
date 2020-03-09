@@ -18,4 +18,10 @@ public:
 private:
 
 
-int m_index
+Point snake[20];
+int m_indexSerpent;
+
+
+};
+
+#endif

@@ -7,3 +7,6 @@
 using namespace std;
 
 Snake::Snake();
+{
+this->m_indexSerpent=2;
+}
