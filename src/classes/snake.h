@@ -9,16 +9,16 @@ class Point;
 class Snake
 {
 public:
-   Snake(); 
-   ~Snake();
+   Snake(); //constructeur
+   ~Snake(); // destructeur
    
    void ajouterPoint(Point P);
    void afficher();
-
+   void deplacer();
 private:
 
 
-Point snake[20];
+Point m_snake[20];
 int m_indexSerpent;
 
 
